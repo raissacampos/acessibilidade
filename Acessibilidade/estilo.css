@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans' sans-serif;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #F6EED9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #5173C2;
+    color: #fff;
+    padding: 1rem;
+    height: 700px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    margin: 1rem;
+  }
+
+.banner{
+    align-items: center;
+    text-align: center;
+    margin-top: 12%;
+}
+
+.banner h1{
+    font-size: 50px;
+}
+
+.banner p{
+    font-size: 25px;
+}
+
+.parte1{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.esquerda{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.direita{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.direita h1{
+    font-size: 35px;
+}
+
+.parte2{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.direita2{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.direita2 img{
+    width: 900px;
+    margin-right: 50px;
+}
+.esquerda2{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.esquerda2 h1{
+    font-size: 35px;
+}
+
+.container{
+    background-color: #5173C2;
+    justify-content: space-around;
+    display: flex;
+    align-items: center ;
+    height: 250px;
+    margin-top: 90px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.lado2 p{
+    font-size: 20px;
+}
